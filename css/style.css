@@ -1,14 +1,15 @@
 body{
     background-repeat:no-repeat;
     background-size:cover;
-    background-image: url(/images./house.jpg);
+    background-image: url(/images./crop-1-700x622.jpg);
     background-size:fixed;
-    background-position: fixed;
 }
 h1{
-    font-size: 90px;
-    color:blue;
-    font-style: italic;
+    font-size: 70px;
+    color:mediumaquamarine;
+    font-style: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
 }
 p{
 font-size: 40px;
@@ -17,6 +18,11 @@ font-style: italic;
 }
 form{
 font-style: italic;
-color:black;
+color:white;
 font-size:30px;
+}
+input[type="checkbox"]
+{
+    width:20px;
+    height: 20px;
 }
