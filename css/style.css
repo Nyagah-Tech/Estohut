@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+    background-size: cover;
+}
+h1{
+    font-size: 75px;
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+}
+#top{
+    position: absolute;
+    top: 4%;
+    left:40%;
+}
+#bottom{
+    position: absolute;
+    top: 25%;
+    left: 33%
+}
