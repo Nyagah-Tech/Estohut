@@ -1,18 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ESTOHUT</title>
-</head>
-<body>
-    <div class="container">
-        <h1>ESTO-HUT</h1>
-        <div class=col-md-6>
-            
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Houses</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <body>
+            <div class="container-fluid">
+                <div class="Row">
+                    <div class="col-md-6">
+                        <h1>MY HOUSES</h1>
+                        <div class="My Houses">
+                            <form>
+                            <p>Choose Location.</p>
+            <select id="Locations">
+                    <option disabled selected>locations</option>
+                    <option id="Dagoretti" value="Dagoretti">Dagoretti</option>
+                    <option id="Satelitte" value="Satelitte">Satelitte</option>
+                    <option id="Karen" value="Karen">Karen</option>
+                    <option id="Langatta" value="Langatta">Langatta</option>
+                    <option id="Adams-Arcade" value="Adams-Arcade">Adams-Arcade</option>
+                    <option id="Kileleshwa" value="Kileleshwa">Kileleshwa</option>
+                    <option id="Lavington" value="Lavington">Lavington</option>
+                  </select>
+                  <p>Enter House Features.</p>
+                      <input type='checkbox' value="Inbuilt Kitchen Cabinet">Inbuilt Kitchen Cabinet
+                      <input type='checkbox' value="Inbuilt Windrode">Inbuilt Windrode
+                      <input type='checkbox' value="Laundry Area">Laundry Area
+                      <input type='checkbox' value="Alarm Response"> Alarm Response
+                      <input type='checkbox' value="Parking">Parking
+                      <input type='checkbox' value="Servants Quarters">Servants Quarters
+                      <input type='checkbox' value="Garages">Garages
+                      <p>Enter Water Source.</p>
+                      <input type='checkbox' value="Interior Top Water Tanks.">Interior Top Water Tanks.
+                      <input type='checkbox' value="Exterior Top Water Tanks.">Exterior Top Water Tanks.
+                      <input type='checkbox' value="Third Party Delivery.">Third Party Delivery.
+                      <input type='checkbox' value="Unavailable.">Unavailable.
+                      <p>Enter Electricity Source.</p>
+                      <input type='checkbox' value="Tokens.">Tokens.
+                      <input type='checkbox' value=".">Exterior Top Water Tanks.
+                      <input type='checkbox' value="Third Party Delivery.">Third Party Delivery.
+                      <input type='checkbox' value="Unavailable.">Unavailable.
+                      <select id="Choose Bedrooms">
+                            <option disabled selected>Bedrooms</option>
+                            <option id="1-Bedroom" value="1-Bedroom">1-Bedroom</option>
+                            <option id="2-Bedrooms" value="2-Bedrooms">2-Bedrooms</option>
+                            <option id="3-Bedrooms" value="3-Bedrooms">3-Bedrooms</option>
+                            <option id="4-Bedrooms" value="4-Bedrooms">4-Bedrooms</option>
+                            <option id="5-Bedrooms" value="5-Bedrooms">5-Bedrooms</option>
+                          </select>
+                          <select>
+                          <option disabled selected>Choose mode of deposite.</option>
+                          <option id="With-Deposit" value="">With-Deposit</option>
+                          <option id="Without-Deposit" value="">Without-Deposit</option>
+                          <option id="Unavailable" value="">Unavailable</option>
+                        </select>
+                        <input type="submit"value="submit">
+                          </form>
+                        </div>
+                        </div>        
+                    </div> 
+                </div> 
+        </body>
 
-    </div>
-    
-</body>
+    </head>
+
 </html>
