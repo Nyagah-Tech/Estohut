@@ -1,11 +1,22 @@
-.body{
+body{
     background-repeat:no-repeat;
     background-size:cover;
-    background-image:url("https://cdn4.vectorstock.com/i/1000x1000/56/93/creative-house-logo-color-house-design-home-logo-vector-8225693.jpg");
+    background-image: url(/images./house.jpg);
     background-size:fixed;
+    background-position: fixed;
 }
-h1,h2,h3{
+h1{
     font-size: 90px;
-    color:black;
+    color:blue;
     font-style: italic;
+}
+p{
+font-size: 40px;
+color:blue;
+font-style: italic;
+}
+form{
+font-style: italic;
+color:black;
+font-size:30px;
 }
