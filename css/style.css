@@ -1,19 +1,149 @@
 body{
-    background-color: gray;
+    background-color: rgb(20, 5, 61);
     background-size: cover;
 }
-h1{
-    font-size: 75px;
-    font-family: 'Kaushan Script', cursive;
+h2{
+    font-size: 120px;
     color: black;
+    font-family: 'Ewert', cursive;
+}  
+h4{
+    font-family: 'New Rocker', cursive;
+    font-size: 25px;
+    color: rgb(102, 101, 101); 
 }
-#top{
-    position: absolute;
-    top: 4%;
-    left:40%;
+p{
+    font-family: 'Marck Script', cursive;
+    font-size: 29px;
+    color: grey;
+}
+
+img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0%{transform: translate(1px, 1px)rotate(0deg);}
+    10%{transform: translate(-1px, -2px)rotate(-1deg);}
+    20%{transform: translate(-3px, 0px)rotate(1deg);}
+    30%{transform: translate(3px, 2px)rotate(0deg);}
+    40%{transform: translate(1px, -1px)rotate(1deg);}
+    50%{transform: translate(-1px, 2px)rotate(-1deg);}
+    60%{transform: translate(-3px, 1px)rotate(0deg);}
+    70%{transform: translate(3px, 1px)rotate(-1deg);}
+    80%{transform: translate(-1px, -1px)rotate(1deg);}
+    90%{transform: translate(1px, 2px)rotate(0deg);}
+    100%{transform: translate(1px, -2px)rotate(-1deg);}
 }
 #bottom{
     position: absolute;
-    top: 25%;
-    left: 33%
+    top:35%;
+    left:20%;
 }
+#put{
+    position: absolute;
+    top: 80%;
+    left:20%;
+    font-size: 35px;
+    font-family: 'New Rocker', cursive;
+    color: wheat;
+}
+#keep{
+    position: absolute;
+    top: 0px;
+    left: 35%
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+   }
+   .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+    color: white;
+    display: block;
+    transition: 0.3s;
+   }
+   #pimp{
+    font-family: 'New Rocker', cursive;
+    color: white;  
+   }
+   .sidenav a:hover {
+    color: rgb(109, 1, 109);
+   }
+   .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+   }
+  
+#maindiv{
+    width: 1000px;
+    height:550px;
+    position: absolute;
+    top:2%;
+    left:22%;
+    background-image: url(https://img1.cgtrader.com/items/776140/71d793a43e/large/luxurious-ancient-house-3d-model-3d-model-low-poly-max-obj-fbx-mtl.jpg);
+
+    background-image: url(https://i.ytimg.com/vi/OXQpYR3XNZk/hqdefault.jpg);
+  
+    background-image: url(https://robbreport.co.uk/wp-content/uploads/2019/02/tesla-model-22-_-9.jpg?w=1000);
+   
+    background-image: url(https://odis.homeaway.com/odis/listing/4199d50c-726b-4c21-928d-89b773d2154a.c10.jpg);
+    
+    background-image: url(https://www.realestate.com.au/blog/images/1600x1600-fit,progressive/2018/11/02140037/capi_b36147142016a1fb8955eaf3912770f4_7a84986150b7717c877032594424fc5e.jpeg);
+    
+    box-shadow: 1px 2px 10px white;
+    background-size: 100% 100%;
+    animation: slider 10s infinite linear;
+   
+
+}
+@keyframes slider{
+    0%{ 
+        background-image: url(https://img1.cgtrader.com/items/776140/71d793a43e/large/luxurious-ancient-house-3d-model-3d-model-low-poly-max-obj-fbx-mtl.jpg);
+     }
+
+    25%{ 
+        background-image: url(https://i.ytimg.com/vi/OXQpYR3XNZk/hqdefault.jpg);
+    }
+    50%{
+        background-image: url(https://robbreport.co.uk/wp-content/uploads/2019/02/tesla-model-22-_-9.jpg?w=1000);
+    }
+
+    75%{
+        background-image: url(https://odis.homeaway.com/odis/listing/4199d50c-726b-4c21-928d-89b773d2154a.c10.jpg);
+    }
+
+    100%{ 
+        background-image: url(https://www.realestate.com.au/blog/images/1600x1600-fit,progressive/2018/11/02140037/capi_b36147142016a1fb8955eaf3912770f4_7a84986150b7717c877032594424fc5e.jpeg);
+    }  
+
+}
+#card-footer{
+    position: absolute;
+    top:100%;
+    left:30%;
+    font-size: 25px;
+    
+    border: black;
+}
+#card-footer>img{
+    margin: 15px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+   }
