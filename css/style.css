@@ -1,19 +1,19 @@
 body{
     background-repeat:no-repeat;
     background-size:cover;
-    background-image: url(/images./crop-1-700x622.jpg);
-    background-size:fixed;
+    background-image: url(/images./house.jpg);
+    background-attachment: fixed;
 }
 h1{
     font-size: 70px;
     color:mediumaquamarine;
     font-style: bold;
     text-align: center;
-    font-family: 'Courgette', cursive;
+    font-family: 'Monoton', cursive;
 }
 p{
 font-size: 40px;
-color:blue;
+color:white;
 font-style: italic;
 }
 form{
@@ -25,4 +25,7 @@ input[type="checkbox"]
 {
     width:20px;
     height: 20px;
+    margin:5%
 }
+
+
