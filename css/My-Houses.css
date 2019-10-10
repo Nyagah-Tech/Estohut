@@ -1,7 +1,7 @@
 body{
     background-repeat:no-repeat;
     background-size:cover;
-    background-image: url(/images./house.jpg);
+    background-image: url(/images./crop-1-700x622.jpg);
     background-attachment: fixed;
 }
 h1{
@@ -27,5 +27,3 @@ input[type="checkbox"]
     height: 20px;
     margin:5%
 }
-
-
